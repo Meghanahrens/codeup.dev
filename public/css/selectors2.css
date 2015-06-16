@@ -1,0 +1,56 @@
+h1 {
+	color: pink;
+	text-decoration: underline;
+	}
+h2 {
+	color: #7ec0ee;
+	text-decoration: underline;
+	}
+body {
+	background-image: url(http://blackthumbgardener.com/wp-content/uploads/2014/04/Sunflower-Field.jpg);
+	}
+body {
+	background-position: center; 
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	padding: 10px;
+	}
+	a:link {
+		color:purple;
+	}
+	a:visited {
+		color:gray;
+	}
+	a:hover {
+		color:blue;
+	}
+	a:active {
+		color:black;
+	}
+	ul {
+		list-style:lower-roman;
+	}
+	body {
+		font-style: bold;
+	}
+	table, th, td {
+   border: 4px solid black;
+	}
+	th {
+		text-align: center;
+	}
+	table {
+		border-collapse: collapse;
+	}
+	body::after {
+	background-image: url(http://www.gardenesthetics.com/documents/Sunflower.jpg);
+	background-repeat: no-repeat;
+	opacity:0.5;
+}
+	p {
+		background-color:white;
+	}
+	p {
+		border:solid black;
+		width:250px;
+	}
