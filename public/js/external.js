@@ -10,3 +10,18 @@ if(someBoolean) {
 else {
 	console.log("this variable is false")
 }
+
+var loggedOn = true;
+var isCaptain =true;
+var message= ''
+
+if (loggedOn && isCaptain) {
+	if (isCaptain) {
+		if (captainIsOnDuty) {
+			message = 'welcome aboard, catain. Please stay off the rum.'
+		} else if (loggedOn){
+			message = 'welcome aboard, crew'
+} else {
+		 message = 'You are not yet logged on';
+}
+console.log(message);
